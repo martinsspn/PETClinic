@@ -3,6 +3,9 @@
     <div class="container pt-5" >
       <div class="mx-auto mt-5" >
         <h1 class="text-center">Pets</h1>
+        <b-row class="mx-auto">
+          <b-button size="sm" class="mr-2" to="/usuario/pets/criar">Adicionar novo Pet</b-button>
+        </b-row>
         <b-table striped hover :items="pets" :fields="campos">
             <template #cell(Ações)="row">
                 <b-button size="sm" class="mr-2" :to="`/usuario/pets/${row.item.id}`">

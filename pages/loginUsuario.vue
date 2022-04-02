@@ -9,6 +9,7 @@
             <b-button type="submit" variant="primary">Submit
             </b-button>
         </b-form>
+        <h3><nuxt-link to="/registroUsuario/">Cadastrar-se</nuxt-link></h3>
     </div>   
   </div>
 </template>
